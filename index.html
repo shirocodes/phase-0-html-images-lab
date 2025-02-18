@@ -5,8 +5,36 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>HTML Images</title>
+    <style>
+      .img-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: aliceblue;
+        flex-wrap: wrap;
+        margin: 10px;
+        padding: 10px;
+      }
+      img {
+        margin-bottom: 8px;
+        height: 300px;
+        width: 300px;
+      }
+    </style>
   </head>
   <body>
-    <!-- Your code here -->
+    <div class="img-container">
+      <img src="../phase-0-html-images-lab/images/cat1"/>
+      <img
+        src="../phase-0-html-images-lab/images/cat2"
+        alt="A cute picture of a black cat playing with a bulldog"
+      />
+      <img
+        src="../phase-0-html-images-lab/images/cat3"
+        alt="A cute picture of a cat and dog resting"
+        title="Isn't cute!"
+      />
+    </div>
+   
   </body>
 </html>
